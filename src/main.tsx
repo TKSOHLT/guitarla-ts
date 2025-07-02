@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
 import App from './App.js'
+import './index.css'
 
 //Lo siguiente no es una practica muy buena porque ahi le decimos a typescript "confia en mi"
 const div = document.getElementById('root') as HTMLElement //*=> Inferencia de tipo de dato
